@@ -1,0 +1,32 @@
+.ie7 .section-search .search .input-txt {
+	width: 450px;
+}
+/* .ie6 img, .ie7 img, .ie8 img {
+	max-width: none !important;
+} */
+.ie7 .col-6 {
+ 	width: 399px;
+}
+.ie7 .sm-thumb .col-6 {
+	width: 169px;
+}
+.ie7 .widget-link-list .widget-content li {
+	width: 100px;
+}
+.ie7 nav {
+	position: relative;
+	z-index: 9999;
+}
+.ie7 .col-2 {
+    *width: expression((this.parentNode.clientWidth/6 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');
+}
+.ie7 .col-3 {
+    *width: expression((this.parentNode.clientWidth/4 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');
+}
+.ie7 .col-6 {
+    *width: expression((this.parentNode.clientWidth/2 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px';
+}
+.ie7 .col-n-6 {
+    *width: expression((this.parentNode.clientWidth/2 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');
+}
+/* start commented backslash hack \*/* html .group {height: 1%;}.group {display: block;}/* close commented backslash hack */
